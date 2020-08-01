@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidProfile"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRightOf="@+id/onlinelogomaker_072120_1337_3948_2000_transparent"
+            android:text="E-Guru"
+            android:textsize="20sp" />
+
+        <ImageView
+            android:id="@+id/onlinelogomaker_072120_1337_3948_2000_transparent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/onlinelogomaker_072120_1337_3948_2000_transparent" />
+
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRightOf="@+id/onlinelogomaker_072120_1337_3948_2000_transparent"
+            android:fontFamily="@font/Roboto Google font"
+            android:text="E-Guru"
+            android:textsize="20sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
