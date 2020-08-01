@@ -17,7 +17,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Profile">
 
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -35,10 +43,6 @@
             android:name=".OtpActivity"
             android:label="Locations"
             android:parentActivityName=".OtpActivity" />
-        <activity
-            android:name=".MainActivity2"
-            android:label="Locations"
-            android:parentActivityName=".MainActivity2" />
 
         <meta-data
             android:name="preloaded_fonts"
